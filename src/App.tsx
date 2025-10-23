@@ -73,13 +73,13 @@ function App() {
             <Clock className={`w-10 h-10 sm:w-12 sm:h-12 ${isDark ? 'text-amber-400' : 'text-amber-500'}`} />
             <h1 className={`text-3xl sm:text-4xl md:text-5xl font-bold ${isDark ? 'text-white' : 'text-gray-900'}`}>Deadline Tracker</h1>
           </div>
-          <p className={`text-base sm:text-lg ${isDark ? 'text-slate-300' : 'text-gray-600'} px-4`}>Theo dõi và quản lý thời hạn của bạn</p>
+          <p className={`text-base sm:text-lg ${isDark ? 'text-slate-300' : 'text-gray-600'} px-4`}>Theo dõi deadline của tynnp :)</p>
         </div>
 
         {sortedDeadlines.length === 0 ? (
           <div className="text-center py-12 sm:py-16 md:py-20 px-4">
             <Clock className={`w-16 h-16 sm:w-20 sm:h-20 mx-auto mb-4 ${isDark ? 'text-slate-600' : 'text-gray-400'}`} />
-            <p className={`text-lg sm:text-xl ${isDark ? 'text-slate-400' : 'text-gray-500'}`}>Chưa có deadline nào. Thêm deadline đầu tiên của bạn!</p>
+            <p className={`text-lg sm:text-xl ${isDark ? 'text-slate-400' : 'text-gray-500'}`}>Chưa có deadline nào!!!</p>
           </div>
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-6">
