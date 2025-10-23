@@ -59,7 +59,7 @@ function App() {
     >
       <div className="container mx-auto px-4 py-8 max-w-6xl">
         <div className="text-center mb-10 relative">
-          <button
+          {/* <button
             onClick={() => setIsDark(!isDark)}
             className={`absolute right-0 top-0 p-3 rounded-full transition-all ${
               isDark
@@ -68,7 +68,7 @@ function App() {
             }`}
           >
             {isDark ? <Sun className="w-6 h-6" /> : <Moon className="w-6 h-6" />}
-          </button>
+          </button> */}
           <div className="flex items-center justify-center gap-3 mb-3">
             <Clock className={`w-10 h-10 ${isDark ? 'text-amber-400' : 'text-amber-500'}`} />
             <h1 className={`text-4xl font-bold ${isDark ? 'text-white' : 'text-gray-900'}`}>
