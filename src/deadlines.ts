@@ -30,9 +30,23 @@ export const deadlines: Deadline[] = [
   },
   {
     id: '4',
-    title: 'Làm VLE sinh hoạt công dân',
-    date: '2025-10-23',
+    title: 'BT biểu diễn tri thức',
+    date: '2025-11-09',
     time: '23:59',
-    done: true,
-  }
+    done: false,
+  },
+  {
+    id: '5',
+    title: 'BT CSDL nâng cao',
+    date: '2025-10-30',
+    time: '23:59',
+    done: false,
+  },
+  {
+    id: '6',
+    title: 'Giữa kỳ CSDL nâng cao',
+    date: '2025-12-11',
+    time: '23:59',
+    done: false,
+  },
 ];
