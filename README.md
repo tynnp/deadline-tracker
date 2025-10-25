@@ -61,6 +61,7 @@ Thêm/sửa/xóa các mục theo định dạng sau:
   title: 'Tên deadline',
   date: 'YYYY-MM-DD',  // Ví dụ: '2025-10-31'
   time: 'HH:MM',       // Ví dụ: '23:59'
+  done: false         
 }
 ```
 
