@@ -2,6 +2,10 @@
 
 Ứng dụng **React** đơn giản để theo dõi và quản lý deadline với **đồng hồ đếm ngược thời gian**.
 
+<p align="center">
+  <img src="./assets/demo.png" alt="App Screenshot">
+</p>
+
 ---
 
 ## Tính năng
