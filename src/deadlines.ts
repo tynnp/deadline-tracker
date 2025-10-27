@@ -49,4 +49,18 @@ export const deadlines: Deadline[] = [
     time: '23:59',
     done: false,
   },
+  {
+    id: '7',
+    title: 'Bài tập PHP',
+    date: '2025-11-01',
+    time: '23:59',
+    done: false,
+  },
+  {
+    id: '8',
+    title: 'Tổ chức chuyên đề TTNN1',
+    date: '2025-11-12',
+    time: '23:59',
+    done: false,
+  },
 ];
